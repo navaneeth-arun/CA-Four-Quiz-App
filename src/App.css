@@ -1,9 +1,6 @@
-
 .App {
   text-align: center;
 }
-
-
 
 .question-card {
   margin: 0 auto;
@@ -42,12 +39,11 @@ li {
 .toggle-button{
   margin-left: 400px;
   background-color: black;
-  width: 100px;
-  height: 40px;
+  width: 180px;
+  height: 55px;
   padding: 0px;
   border-radius: 20px;
   margin-top: 20px;
-  
 }
 
 .header{
@@ -76,6 +72,6 @@ button {
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
-
   border-radius: 24px;
+  margin: 0px 30px 0px 30px;
 }

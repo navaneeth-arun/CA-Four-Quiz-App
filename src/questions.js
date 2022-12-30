@@ -2,10 +2,10 @@ const questions = [
   {
     text: "What is ReactJS?",
     options: [
-      { id: 0, text: "Server-side framework", isCorrect: false },
-      { id: 1, text: "user interface framework", isCorrect: true },
-      { id: 2, text: "both a and b", isCorrect: false },
-      { id: 3, text: "none of the above", isCorrect: false },
+      { id: 0, text: "Server-Side Framework", isCorrect: false },
+      { id: 1, text: "User Interface Framework", isCorrect: true },
+      { id: 2, text: "Both A and B", isCorrect: false },
+      { id: 3, text: "None of the Above", isCorrect: false },
     ],
   },
 
@@ -21,20 +21,20 @@ const questions = [
   {
     text: "What is a state in React?",
     options: [
-      { id: 0, text: "A permanent storage.", isCorrect: false },
-      { id: 1, text: "Internal storage of the component.", isCorrect: true },
-      { id: 2, text: "External storage of the component.", isCorrect: false },
-      { id: 3, text: "None of the above.", isCorrect: false },
+      { id: 0, text: "A Permanent Storage.", isCorrect: false },
+      { id: 1, text: "Internal Storage of the Component.", isCorrect: true },
+      { id: 2, text: "External Storage of the Component.", isCorrect: false },
+      { id: 3, text: "None of the Above.", isCorrect: false },
     ],
   },
   
   {
     text: "What is the return value of the useState hook?",
     options: [
-      { id: 0, text: " Pair of current state and function updating it", isCorrect: true },
+      { id: 0, text: "Pair of Current State and Function Updating it", isCorrect: true },
       { id: 1, text: "Current State", isCorrect: false },
-      { id: 2, text: "Function updating the current state", isCorrect: false },
-      { id: 3, text: "UseState returns nothing", isCorrect: false },
+      { id: 2, text: "Function Updating the Current State", isCorrect: false },
+      { id: 3, text: "UseState Returns Nothing", isCorrect: false },
     ],
   },
   {
