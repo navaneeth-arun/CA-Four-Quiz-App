@@ -4,8 +4,6 @@ import questions from "./questions";
 import Result from "./components/Result";
 import QuestionBox from "./components/QuestionBox";
 
-
-
 function App() {
 
   const [showResults, setShowResults] = useState(false);
@@ -28,29 +26,27 @@ function App() {
     }
   };
 
-
   const handleToggle = ()=>{
     setTheme(theme?false:true);
   }
 
   function backGroundColors(color){
 
-    document.body.style.backgroundColor = color? "#6e6a6a":"white";
+    document.body.style.backgroundColor = color? "#4C0033":"#FFADBC";
     return{
-      backgroundColor : color? "#6e6a6a":"white",
+      backgroundColor : color? "#4C0033":"#FFADBC",
     }
-  }
+  }  
 
   function textColor(color){
     return{
-      color:color?"white":"#6e6a6a",
+      color:color?"#FFADBC":"#4C0033",
     }
   }
 
   useEffect(()=>{
     setThemeName(themeName==="light"?"dark":"light")
   },[theme])
-
 
   return (
       <div className="App" style={backGroundColors(theme)}>
@@ -63,11 +59,7 @@ function App() {
           showResults ? <Result setScore={setScore} score={score} setCurrentQuestion={setCurrentQuestion} setShowResults={setShowResults} length={questions.length}/> : 
           <QuestionBox questions={questions} optionClicked={optionClicked} currentQuestion={currentQuestion}/>
         }
-
-      
-      
       </div>
-
   );
 }
 

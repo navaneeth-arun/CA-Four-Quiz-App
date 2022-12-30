@@ -7,11 +7,11 @@ export default function QuestionBox({questions,optionClicked,currentQuestion}) {
   const focusQuestion = useRef();
 
   function handleFocus(){
-    focusQuestion.current.style.color = "red";
+    focusQuestion.current.style.color = "darkblue";
   }
 
   function handleNoFocus(){
-    focusQuestion.current.style.color = "darkblue";
+    focusQuestion.current.style.color = "black";
   }
 
   return (      
